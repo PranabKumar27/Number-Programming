@@ -6,16 +6,14 @@ public class Armstrong
         Scanner obj=new Scanner(System.in);
         System.out.println("Enter a Number to check a number is Armstrong or not:");
         int num=obj.nextInt();
-
-        int temp=num;
-
-        int length=0;
+        int temp=num;//storing the number into a "temp" variable for backup.
+        int length=0//Intiallizing the "length" value as a zero.
         while(num>0)
         {
             length++;
             num=num/10;
-        }
-        num=temp;
+        }//after executing while loop the "num" variable will be 0 & "length" variable store the length of the number.
+        num=temp;// "temp" variable is assigning to the "num" variable.
 
         int sum=0;
 
