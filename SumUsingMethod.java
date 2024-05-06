@@ -1,4 +1,4 @@
-public class no1
+public class SumUsingMethod
 {
     public static void main(String[] args)
     {
